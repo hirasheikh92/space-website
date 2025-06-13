@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32x32.png">
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
+      rel="stylesheet">
+      
+  <!-- Our custom CSS -->
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Space tourism website</title>
+  <script src="main.js" defer></script>
+  <script src="tabs.js" defer></script>
+</head>
+
+<body class="technology">
+  <a class="skip-to-content" href="#main">Skip to content</a>
+  <header class="primary-header flex">
+    <div>
+      <img src="../assets/shared/logo.svg" alt="space tourism logo" class="logo">
+    </div>
+    <button class="mobile-nav-toggle" aria-controls="primary-navigation"><span class="sr-only" aria-expanded="false">Menu</span></button>
+    <nav>
+        <ul id="primary-navigation" data-visible="false" class="primary-navigation underline-indicators flex">
+            <li class="active"><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="index.html"><span aria-hidden="true">00</span>Home</a>
+            <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="destination.html"><span aria-hidden="true">01</span>Destination</a>
+            <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="crew.html"><span aria-hidden="true">02</span>Crew</a>
+            <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="./technology.html"><span aria-hidden="true">03</span>Technology</a>
+        </ul>
+    </nav>
+  </header>
+  
+  <div class="grid-container grid-container--technology ">
+    <h1 class="numbered-title"><span aria-hidden="true">03</span> SPACE LAUNCH 101</h1>
+  
+    <div class="technology-tabs" role="tablist">
+      <div class="tab active" role="tab" aria-selected="true" aria-controls="technology-tab" data-image="technology-image-tab" tabindex="0">1</div>
+      <div class="tab" role="tab" aria-selected="false" aria-controls="technology-spaceport" data-image="technology-image-spaceport" tabindex="-1">2</div>
+      <div class="tab" role="tab" aria-selected="false" aria-controls="technology-capsule" data-image="technology-image-capsule" tabindex="-1">3</div>
+    </div>
+    
+    <article class="technology-content flow" id="technology-tab" role="tabpanel" tabindex="0">
+      <header class="flow flow--space-small">
+      <h3 class="subheading">THE TERMINOLOGY...</h3>
+      <h1 id="title">LAUNCH VEHICLE</h1>
+      <p id="description">
+        A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space...
+      </p>
+    </header>
+         
+    </article> 
+
+    <article class="technology-content flow" id="technology-spaceport" role="tabpanel" tabindex="0">
+      <header class="flow flow--space-small">
+      <h3 class="subheading">THE TERMINOLOGY...</h3>
+      <h1 id="title">LAUNCH VEHICLE</h1>
+      <p id="description">
+        A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space...
+      </p>
+    </header>
+          
+    </article> 
+
+    <article class="technology-content flow" id="technology-capsule" role="tabpanel" tabindex="0">
+      <header class="flow flow--space-small">
+      <h3 class="subheading">THE TERMINOLOGY...</h3>
+      <h1 id="title">LAUNCH VEHICLE</h1>
+      <p id="description">
+        A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space...
+      </p>
+    </header>
+         
+    </article> 
+
+     <picture id="technology-image-tab">
+      <img src="../assets/technology/image-launch-vehicle-portrait.jpg" alt="Launch Vehicle" />
+    </picture>
+
+    <picture hidden id="technology-image-spaceport">
+      <img src="../assets/technology/image-spaceport-portrait.jpg" alt="Spaceport" />
+    </picture>
+
+    <picture hidden id="technology-image-capsule">
+      <img src="../assets/technology/image-space-capsule-portrait.jpg" alt="Space Capsule" />
+    </picture>
+  
+    <!-- <div class="technology-content">
+      <h3 class="subheading">THE TERMINOLOGY...</h3>
+      <h1 id="title">LAUNCH VEHICLE</h1>
+      <p id="description">
+        A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space...
+      </p>
+    </div> -->
+  
+
+  </div>
+  
+  
+<body>
+
+
+  
+</body>
+</html>
